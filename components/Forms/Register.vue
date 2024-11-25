@@ -134,6 +134,7 @@ export default {
   methods: {
     handleSubmit() {
       if (this.$refs.form.validate()) {
+      // eslint-disable-next-line no-console
         console.log('data submited');
       }
     },

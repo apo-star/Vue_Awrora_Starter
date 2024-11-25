@@ -97,6 +97,7 @@ export default {
       Object.keys(this.sections).forEach((i) => {
         if (this.sections[i] <= topPosition) {
           this.activeMenu = i;
+          // eslint-disable-next-line no-console
           console.log(this.activeMenu);
         }
       });
